@@ -1,17 +1,19 @@
 {
   "expo": {
-    "name": "temp-init",
-    "slug": "temp-init",
+    "name": "Kollege Katta",
+    "slug": "kollege-katta",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "dark",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kshitijrenge.kollegekatta"
     },
     "android": {
+      "package": "com.kshitijrenge.kollegekatta",
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
+        "backgroundColor": "#000000",
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
